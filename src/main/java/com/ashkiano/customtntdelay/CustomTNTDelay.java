@@ -25,6 +25,7 @@ public class CustomTNTDelay extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
         getLogger().info("CustomTNTDelay enabled with TNT delay of " + delayInSeconds + " seconds.");
         Metrics metrics = new Metrics(this, 22004);
+        this.getLogger().info("Thank you for using the CustomTNTDelay plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
